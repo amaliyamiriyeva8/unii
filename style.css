@@ -1,0 +1,450 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .nav1{
+        width: 100%;
+        padding: 15px 15px;
+        background-color: rgb(41, 68, 77);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 300px;
+        position: fixed;
+        
+    }
+    ul{
+        list-style: none;
+        color: gainsboro;
+        cursor: pointer;
+        display: flex;
+    }
+    .nav2{
+        color: white;
+        cursor: pointer;
+        font-size: 1.4rem;
+     }
+     li{
+         margin-right: 40px;
+         text-align: center;
+     }
+     h4{
+         color: gainsboro;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 17px;
+         background-color: tomato;
+         border-radius: 7px;
+     }
+    nav li:hover{
+         color: ghostwhite;
+         background-color: brown;
+         border-radius: 8px;
+         height: 27px;
+     }
+     ul{
+        list-style: none;
+     }
+      span i{
+        display: none;
+        font-size: 30px;
+        color: white;
+      }
+     i{
+        font-size: 10px;
+        color: white;
+     }
+     ul li{
+        display: inline-block;
+        position: relative;
+     }
+     ul li a{
+       display: block;
+       padding: 10px 10px;
+       text-decoration: solid;
+       text-align: center;
+       font-size: 14px;
+       color: black;
+     }
+     
+     .dropdown{
+        width: 170px;
+        border-radius: 10px;
+        background-color: white;
+        position: absolute;
+        display: none;
+     }
+     ul li:hover ul.dropdown{
+        display: block;
+     }
+     .deepdown{
+        width: 170px;
+        border-radius: 10px;
+        background-color: white;
+        position: relative;
+        display: none;
+        top: 0;
+     }
+     ul li:hover ul.deepdown{
+        display: block;
+        position: absolute;
+        left: 180px;
+      
+
+     }
+    .div1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(41, 68, 77);
+        padding-top:100px ;
+        padding-bottom: 150px ;
+        text-align: center;
+    }
+    .div2{
+        width: 40%;
+        background-color: gainsboro;
+        text-align: center;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button{
+     width: 150px;
+     height: 45px;
+     background-color: rgb(23, 23, 51);
+     color: white;
+     border-radius: 20px;
+     border: 3px solid tomato;
+     margin-top: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 15px;
+    }
+    .button:hover{
+        background-color: tomato;
+    }
+    .div2 h1{
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .div2 p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .div3{
+    width: 100%;
+    display: flex;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    }
+    .div4{
+        width: 94%;
+        background-color: aquamarine;
+        padding: 25px 25px;
+    }
+    .servis{
+        position: relative;
+        font-size: 20px;
+        color: rgb(133, 131, 131);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .servis::after{
+        margin-left: 10px;
+        position: absolute;
+        top: 13px;
+        content: '';
+        width: 10%;
+        height: 1px;
+        background-color: orange;
+    }
+    .div5{
+        width: 100%;
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        gap: 20px;
+    }
+    .div6, .div7{
+        width: 47%;
+        padding: 20px 20px;
+        background-color: lavenderblush;
+        
+    }
+    .big{
+        font-size: 35px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .big1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 23px;
+        font-style: italic;
+        color: rgb(69, 68, 68);
+    }
+    .small{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: start;
+        color: rgb(69, 68, 68);
+    }
+    .small li{
+        font-size: 20px;
+    }
+    .small i{
+        color: red;
+        font-size: 20px;
+    }
+
+    .div7 p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 23px;
+        color: rgb(69, 68, 68);
+        
+    }
+    button{
+        width: 150px;
+        height: 35px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(5, 2, 0);
+        border-radius: 10px;
+        border: 3px solid rgb(11, 11, 11);
+        margin-top: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+       }
+    button:hover{
+           background-color: tomato;
+           cursor: pointer;
+       }
+    .div8{
+        padding: 50px ;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        background-color: lightpink;
+        
+    }
+    .div8 div{
+        padding: 20px;
+        border: 1px solid;
+        width: 336px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div8 i{
+        font-size: 50px;
+        color: black;
+        
+    }
+    .div8 p{
+        font-size: 25px;
+    }
+    .div8  p:hover{
+        color: tomato;
+    }
+    .div8 i:hover{
+        color: tomato;
+    }
+    .div9{
+        width: 100%;
+        padding: 50px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgrey;
+    }
+    .one{
+        width: 60%;
+        background-color: aquamarine;
+        padding: 20px 20px;
+    }
+    .two{
+        width: 40%;
+        height: 362px;
+        background-color: darkorchid;
+      background-image: url("https://fikiwiki.com/uploads/posts/2022-02/1645052341_19-fikiwiki-com-p-kartinki-na-zadnii-fon-22.jpg");
+      background-size: cover;
+      background-position: center;
+      
+    }
+    .one h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(65, 64, 64);
+        font-size: 25px;
+    }
+    .four{
+        font-size: 20px;
+        color: rgb(60, 59, 59);
+    }
+    .div10{
+        width: 100%;
+        padding: 50px 50px;
+        background-color: rgb(3, 3, 55);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .five{
+        padding: 60px 60px;
+        width: 80%;
+        background-color: darkcyan;
+    }
+    .six{
+        padding: 72px 72px;
+        width: 23%;
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .five h1{
+        color: white;
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .five p{
+        color: white;
+        font-size: 20px;
+    }
+    .six button{
+        width: 160px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: orangered;
+        color: white;
+        border-style: none;
+    }
+    .six button:hover{
+        cursor: pointer;
+        color: orangered;
+        background-color: white;
+    }
+    .div11{
+        width: 100%;
+        display: flex;
+        background-color: darkgray;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        }
+        .div12{
+            width: 93%;
+            background-color: aquamarine;
+            padding: 25px 25px;
+        }
+        .about{
+            position: relative;
+            font-size: 20px;
+            color: rgb(133, 131, 131);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .about::after{
+            margin-left: 10px;
+            position: absolute;
+            top: 13px;
+            content: '';
+            width: 10%;
+            height: 1px;
+            background-color: orange;
+        }
+        .seven{
+            font-size: 35px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .div13{
+           background-color: violet;
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+           align-items: center;
+           gap: 26px;
+           padding: 20px 20px;
+        }
+        .div13 div{
+            border-radius: 5px;
+           width: 30%;
+           height: 140px;
+         background-color: thistle;
+        }
+        .div13 h1{
+            font-size: 25px;
+            color: rgb(57, 57, 57);
+        }
+        .div13 h1:hover{
+          color: orangered;
+          cursor: pointer;
+        }
+        .div13 p{
+            color: gray;
+           font-size: 18px;
+        }
+        .div13 i{
+            font-size: 40px;
+            color: darkorchid;
+            
+        }
+        .div14{
+            width: 100%;
+            display: flex;
+            background-color: darkgray;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            }
+        .div15{
+            width: 94%;
+            background-color: aquamarine;
+            padding: 25px 25px;
+        }
+        .portfolio{
+            position: relative;
+            font-size: 20px;
+            color: rgb(133, 131, 131);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .Portfolio::after{
+            margin-left: 10px;
+            position: absolute;
+            top: 13px;
+            content: '';
+            width: 10%;
+            height: 1px;
+            background-color: orange;
+        }
+        .big{
+            font-size: 35px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+ @media screen and (max-width:700px){
+    nav{
+        width:100%
+    }
+
+   ul{
+    display: none;
+   }
+   nav i{
+    display: flex;
+    
+}
+}
