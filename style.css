@@ -268,19 +268,13 @@
         background-color: lightgrey;
     }
     .one{
-        width: 60%;
-        background-color: aquamarine;
-        padding: 20px 20px;
+        width: 50%;
+     
     }
     .two{
         width: 40%;
-        height: 362px;
-        background-color: darkorchid;
-      background-image: url("https://fikiwiki.com/uploads/posts/2022-02/1645052341_19-fikiwiki-com-p-kartinki-na-zadnii-fon-22.jpg");
-      background-size: cover;
-      background-position: center;
-      
     }
+
     .one h1{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(65, 64, 64);
